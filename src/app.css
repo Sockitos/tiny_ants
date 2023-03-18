@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* baloo-2-regular - latin_latin-ext */
+@font-face {
+	font-display: swap;
+	font-family: 'Baloo 2';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/baloo-2-v16-latin_latin-ext-regular.woff2') format('woff2'),
+		url('/fonts/baloo-2-v16-latin_latin-ext-regular.woff') format('woff');
+}
+
+/* baloo-2-500 - latin_latin-ext */
+@font-face {
+	font-display: swap;
+	font-family: 'Baloo 2';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/fonts/baloo-2-v16-latin_latin-ext-500.woff2') format('woff2'),
+		url('/fonts/baloo-2-v16-latin_latin-ext-500.woff') format('woff');
+}
+
+/* baloo-2-600 - latin_latin-ext */
+@font-face {
+	font-display: swap;
+	font-family: 'Baloo 2';
+	font-style: normal;
+	font-weight: 600;
+	src: url('/fonts/baloo-2-v16-latin_latin-ext-600.woff2') format('woff2'),
+		url('/fonts/baloo-2-v16-latin_latin-ext-600.woff') format('woff');
+}
+
+/* baloo-2-700 - latin_latin-ext */
+@font-face {
+	font-display: swap;
+	font-family: 'Baloo 2';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/fonts/baloo-2-v16-latin_latin-ext-700.woff2') format('woff2'),
+		url('/fonts/baloo-2-v16-latin_latin-ext-700.woff') format('woff');
+}
+
+/* baloo-2-800 - latin_latin-ext */
+@font-face {
+	font-display: swap;
+	font-family: 'Baloo 2';
+	font-style: normal;
+	font-weight: 800;
+	src: url('/fonts/baloo-2-v16-latin_latin-ext-800.woff2') format('woff2'),
+		url('/fonts/baloo-2-v16-latin_latin-ext-800.woff') format('woff');
+}
+
+html {
+	scroll-behavior: smooth;
+}
