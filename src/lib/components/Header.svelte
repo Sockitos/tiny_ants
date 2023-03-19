@@ -1,10 +1,12 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	let scrollY: number;
 </script>
 
 <header class="{scrollY > 50 ? 'bg-mauve' : ''} transition-colors duration-300 fixed w-full z-50">
 	<div class="h-20 px-10 flex flex-row items-center">
-		<img src="svgs/logo.svg" class="h-12" />
+		<img src="{base}/svgs/logo.svg" class="h-12" />
 		<ul class="ml-auto flex flex-row items-center space-x-6 text-2xl font-semibold">
 			<li>
 				<a href="#vision">VISION</a>

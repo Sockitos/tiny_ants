@@ -1,18 +1,19 @@
-<script>
+<script lang="ts">
+	import { base } from '$app/paths';
 	import Accordion from '$lib/components/Accordion.svelte';
 </script>
 
-<div><img src="svgs/header.svg" alt="" /></div>
+<div><img src="{base}/svgs/header.svg" alt="" /></div>
 <section id="mint">
 	<div class="container flex flex-row items-center py-36">
 		<span class="basis-1/2 text-4xl font-bold text-center">MINT IS CLOSED!</span>
-		<img src="images/loop.gif" class="basis-1/2 w-36 rounded-lg" />
+		<img src="{base}/images/loop.gif" class="basis-1/2 w-36 rounded-lg" />
 	</div>
 </section>
 <section id="vision" class="bg-jordy-blue">
 	<div class="container flex flex-row space-x-20 items-center py-36">
 		<div class="basis-1/2">
-			<img src="images/og.jpg" />
+			<img src="{base}/images/og.jpg" />
 		</div>
 		<div class="basis-1/2 space-y-10 text-2xl">
 			<h2 class="text-5xl font-bold">OUR VISION</h2>
@@ -42,7 +43,7 @@
 		<div class="flex flex-row space-x-20 items-center mb-10">
 			<div class="basis-1/2">
 				<img
-					src="svgs/ants/aqua_ant.svg"
+					src="{base}/svgs/ants/aqua_ant.svg"
 					alt="aqua_ant"
 					class="w-full h-auto rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
@@ -66,7 +67,7 @@
 		<div class="grid grid-cols-4 gap-x-16 gap-y-10">
 			<div class="flex flex-col items-center space-y-4">
 				<img
-					src="svgs/ants/aqua_ant.svg"
+					src="{base}/svgs/ants/aqua_ant.svg"
 					alt="aqua_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
@@ -75,7 +76,7 @@
 
 			<div class="flex flex-col items-center space-y-4">
 				<img
-					src="svgs/ants/cat_ant.svg"
+					src="{base}/svgs/ants/cat_ant.svg"
 					alt="cat_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
@@ -83,7 +84,7 @@
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
-					src="svgs/ants/holy_ant.svg"
+					src="{base}/svgs/ants/holy_ant.svg"
 					alt="holy_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
@@ -91,7 +92,7 @@
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
-					src="svgs/ants/knight_ant.svg"
+					src="{base}/svgs/ants/knight_ant.svg"
 					alt="knight_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
@@ -99,7 +100,7 @@
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
-					src="svgs/ants/mage_ant.svg"
+					src="{base}/svgs/ants/mage_ant.svg"
 					alt="mage_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
@@ -107,7 +108,7 @@
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
-					src="svgs/ants/ninja_ant.svg"
+					src="{base}/svgs/ants/ninja_ant.svg"
 					alt="ninja_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
@@ -115,7 +116,7 @@
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
-					src="svgs/ants/space_ant.svg"
+					src="{base}/svgs/ants/space_ant.svg"
 					alt="space_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
@@ -123,7 +124,7 @@
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
-					src="svgs/ants/vampire_ant.svg"
+					src="{base}/svgs/ants/vampire_ant.svg"
 					alt="vampire_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
