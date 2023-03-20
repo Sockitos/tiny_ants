@@ -218,10 +218,9 @@
 				<h3 class="text-3xl font-semibold mb-2">JOHN MILES</h3>
 				<h4 class="text-2xl font-semibold mb-5">DEVELOPER</h4>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+					Hi, my name is John Miles and im a Web developer. I've spent most of my successful career
+					building and running Web sites for large organizations. I'm looking forward to explore
+					Web3 with you, and see what NFT space is capable of.
 				</p>
 			</div>
 		</div>
@@ -233,9 +232,9 @@
 		<Accordion
 			items={[
 				{
-					label: 'What is Tiny Ants',
+					label: 'Why Tiny Ants?',
 					content:
-						'Tiny Ants is an NFT series on Ethereum. For information on our vision, please check out 📚︱our-vision'
+						"Tiny Ants are much more than just a brand or a community. They represent creativeness in any collective body. Just like Ants, our society is always in sync, moving as one. But ultimately, we're all infinitely unique. So let's be like our Tiny Ant Friends"
 				},
 				{
 					label: 'How many NFTs are there in the collection?',
@@ -244,40 +243,30 @@
 				},
 				{
 					label: 'Will there be a pre-sale?',
-					content:
-						'Yes. You need to reach TinyList status to participate. Please see 🔑white-list-info for more information about getting on the pre-sale whitelist.'
+					content: 'Yes. You need to reach AntList status to participate.'
 				},
-				{
-					label: 'Will there be a whitelist for the public sale?',
-					content: 'There will be a whitelist and public sale.'
-				},
-				{ label: 'How many whitelist spots?', content: 'There will be 500 whitelist spots.' },
 				{
 					label: 'What is the mint price?',
-					content: 'The whitelist pre-sale is 0.02 ETH and the public sale is 0.03 ETH.'
+					content: 'The whitelist pre-sale is 0.01 ETH and the public sale is 0.02 ETH.'
 				},
-				{
-					label: 'How many Tiny Ants can I buy?',
-					content:
-						'Whitelisted wallets can buy one Tiny Ant in the pre-sale. In the public sale, any wallets may buy up to 3 Tiny Ant for a 24 hour period until they are sold out.'
-				},
+
 				{
 					label: 'What are the rarities?',
 					content: 'Rarities will be shared shortly after launch.'
 				},
 				{
 					label: 'Are there royalties?',
-					content: '3% royalty on our main policy. No royalties on promo policy.'
+					content: '3% royalty on our main policy.'
 				},
 				{
 					label: 'Wen launch?',
 					content:
-						'Pre-Sale minting is still TBD.. Public sale begins shortly after, details to be announced.'
+						'Pre-Sale minting is still TBD. Public sale begins shortly after, details to be announced.'
 				},
 				{
 					label: 'How to mint?',
 					content:
-						'First, whitelist Instructions in #whitelist-info. Then access tinyants.io/mint for the mint page with instructions.'
+						'First, whitelist Instructions in our discord. Then access tinyants.io/mint for the mint page with instructions.'
 				}
 			]}
 		/>
