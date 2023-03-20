@@ -3,10 +3,14 @@
 	import Accordion from '$lib/components/Accordion.svelte';
 </script>
 
-<div><img src="{base}/svgs/header.svg" alt="" /></div>
+<svelte:head>
+	<title>Tiny Ants</title>
+</svelte:head>
+
+<img src="{base}/svgs/header.svg" alt="" />
 <section id="mint">
 	<div class="container flex flex-row items-center py-36">
-		<span class="basis-1/2 text-4xl font-bold text-center">MINT IS CLOSED!</span>
+		<span class="basis-1/2 text-4xl font-bold text-center">MINTING SOON!</span>
 		<img src="{base}/images/loop.gif" class="basis-1/2 w-36 rounded-lg" />
 	</div>
 </section>
@@ -43,25 +47,26 @@
 		<div class="flex flex-row space-x-20 items-center mb-10">
 			<div class="basis-1/2">
 				<img
-					src="{base}/svgs/ants/aqua_ant.svg"
+					src="{base}/svgs/ants/simple_ant.svg"
 					alt="aqua_ant"
 					class="w-full h-auto rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
 			</div>
 			<div class="basis-1/2 space-y-10 text-2xl">
 				<h2 class="text-5xl font-bold">THIS IS A TINY ANT</h2>
+				<p>A Tiny Ant comes in many shapes and colors. This is the most common type.</p>
 				<p>
-					A Beeing comes in many shapes and colors. This is the most common type. Beeings are all
-					about inclusivity, so much so that it's part of their biology. Beeings are capable of
-					creating any kind of animal or Beeing called hybrids! Hybrids are just as much Beeings as
-					most common type. Being a Beeing comes from the heart, not from your shell. This leaves
-					room for a lot of creative appearances. Let's meet other Beeings below.
+					Tiny Ants are all about expressing themselves, so much so that it's permanANTly part of
+					their biology. Tiny Ants live in their colony with thousands of other Tiny Ants, but each
+					one has it's own elegANT personal traits that make it uniquely different from all of the
+					others. This is to show that, even in our Societies/groups we have the power to stand out
+					with our creativeness.
 				</p>
 				<p>
-					Our collection consists of 10,000 uniquely created Beeings, with over 230+ traits,
-					including a couple secret ones...
+					Our collection consists of 4,444 unique Tiny Ants with over 70+ traits, including a couple
+					secreat ones.
 				</p>
-				<p>Every Beeing and trait has been digitally hand-drawn by Leon Karssen.</p>
+				<p>Every Tiny Ant and trait has been digitally hand-drawn by Pedro Herbet.</p>
 			</div>
 		</div>
 		<div class="grid grid-cols-4 gap-x-16 gap-y-10">
@@ -71,7 +76,7 @@
 					alt="aqua_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">Aqua Ant</span>
+				<span class="text-3xl font-semibold">AQUA ANT</span>
 			</div>
 
 			<div class="flex flex-col items-center space-y-4">
@@ -80,23 +85,23 @@
 					alt="cat_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">Cat Ant</span>
+				<span class="text-3xl font-semibold">CAT ANT</span>
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
-					src="{base}/svgs/ants/holy_ant.svg"
+					src="{base}/svgs/ants/robot_ant.svg"
 					alt="holy_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">Holy Ant</span>
+				<span class="text-3xl font-semibold">ROBOT ANT</span>
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
-					src="{base}/svgs/ants/knight_ant.svg"
+					src="{base}/svgs/ants/pirate_ant.svg"
 					alt="knight_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">Knight Ant</span>
+				<span class="text-3xl font-semibold">PIRATE ANT</span>
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
@@ -104,7 +109,7 @@
 					alt="mage_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">Mage Ant</span>
+				<span class="text-3xl font-semibold">MAGE ANT</span>
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
@@ -112,7 +117,7 @@
 					alt="ninja_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">Ninja Ant</span>
+				<span class="text-3xl font-semibold">NINJA ANT</span>
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
@@ -120,7 +125,7 @@
 					alt="space_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">Space Ant</span>
+				<span class="text-3xl font-semibold">SPACE ANT</span>
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
@@ -128,7 +133,7 @@
 					alt="vampire_ant"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">Vampira Ant</span>
+				<span class="text-3xl font-semibold">VAMPIRE ANT</span>
 			</div>
 		</div>
 	</div>
@@ -140,46 +145,40 @@
 			<div
 				class="basis-1/3 bg-white/50 min-h-40 flex flex-col p-10 rounded-lg transition-transform -rotate-3 hover:rotate-0 hover:scale-110"
 			>
-				<div class="aspect-square bg-cream mb-8 rounded-md" />
+				<img src="{base}/images/4200.png" class="mb-8  rounded-md" />
 				<h3 class="text-3xl font-semibold mb-2">TYLER MARQUEZ</h3>
 				<h4 class="text-2xl font-semibold mb-5">FOUNDER</h4>
 				<p>
-					Kyler is a visionary and a passionate leader. With experience in marketing for over 10+
-					years. Kyler has built many successful personal brands in the past and has built several
-					networks amassing well over 25+ million followers across all platforms. His heart is to
-					empower people and create value wherever he goes. Kyler's previous endeavors include the
-					sports card industry where he had amassed a 7 figure sales operation in sports
-					memorabilia.
+					My name's Taylor and I'm a project manager who fell in love with the beauty of crypto and
+					the NFT world. I'm an art lover who appreciates enthusiasm and talent. I think long term
+					in everything I do.s
 				</p>
 			</div>
 			<div
 				class="basis-1/3 bg-white/50 min-h-40 flex flex-col p-10 transition-transform hover:scale-110"
 			>
-				<div class="aspect-square bg-cream mb-8 rounded-md" />
-				<h3 class="text-3xl font-semibold mb-2">TYLER MARQUEZ</h3>
-				<h4 class="text-2xl font-semibold mb-5">FOUNDER</h4>
+				<img src="{base}/images/1300.png" class="mb-8  rounded-md" />
+				<h3 class="text-3xl font-semibold mb-2">PEDRO HERBET</h3>
+				<h4 class="text-2xl font-semibold mb-5">ARTIST</h4>
 				<p>
-					Kyler is a visionary and a passionate leader. With experience in marketing for over 10+
-					years. Kyler has built many successful personal brands in the past and has built several
-					networks amassing well over 25+ million followers across all platforms. His heart is to
-					empower people and create value wherever he goes. Kyler's previous endeavors include the
-					sports card industry where he had amassed a 7 figure sales operation in sports
-					memorabilia.
+					Hey I’m Pedro Herbet and I'm a digital post-production ilustrator and animator. I've
+					worked on multiple advertisement projects with Adidas, EDP, and more. Inspired at a young
+					age from cartoons and anime art, i was led to try different art styles. I hope to share my
+					passion with the NFT community through the creation of cute Tiny Ants with a realistic
+					touch.
 				</p>
 			</div>
 			<div
 				class="basis-1/3 bg-white/50 min-h-40 flex flex-col p-10 transition-transform rotate-3 hover:rotate-0 hover:scale-110"
 			>
-				<div class="aspect-square bg-cream mb-8 rounded-md" />
-				<h3 class="text-3xl font-semibold mb-2">TYLER MARQUEZ</h3>
-				<h4 class="text-2xl font-semibold mb-5">FOUNDER</h4>
+				<img src="{base}/images/420.png" class="mb-8  rounded-md" />
+				<h3 class="text-3xl font-semibold mb-2">JOHN MILES</h3>
+				<h4 class="text-2xl font-semibold mb-5">DEVELOPER</h4>
 				<p>
-					Kyler is a visionary and a passionate leader. With experience in marketing for over 10+
-					years. Kyler has built many successful personal brands in the past and has built several
-					networks amassing well over 25+ million followers across all platforms. His heart is to
-					empower people and create value wherever he goes. Kyler's previous endeavors include the
-					sports card industry where he had amassed a 7 figure sales operation in sports
-					memorabilia.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 				</p>
 			</div>
 		</div>
@@ -187,6 +186,56 @@
 </section>
 <section id="faqs">
 	<div class="container py-36">
-		<Accordion />
+		<Accordion
+			items={[
+				{
+					label: 'What is Tiny Ants',
+					content:
+						'Tiny Ants is an NFT series on Ethereum. For information on our vision, please check out 📚︱our-vision'
+				},
+				{
+					label: 'How many NFTs are there in the collection?',
+					content:
+						'4,444. 108 Are reserved for giveaways and promotions, and 3 1/1 Team Ants. 4,333 will be available to mint.'
+				},
+				{
+					label: 'Will there be a pre-sale?',
+					content:
+						'Yes. You need to reach TinyList status to participate. Please see 🔑white-list-info for more information about getting on the pre-sale whitelist.'
+				},
+				{
+					label: 'Will there be a whitelist for the public sale?',
+					content: 'There will be a whitelist and public sale.'
+				},
+				{ label: 'How many whitelist spots?', content: 'There will be 500 whitelist spots.' },
+				{
+					label: 'What is the mint price?',
+					content: 'The whitelist pre-sale is 0.02 ETH and the public sale is 0.03 ETH.'
+				},
+				{
+					label: 'How many Tiny Ants can I buy?',
+					content:
+						'Whitelisted wallets can buy one Tiny Ant in the pre-sale. In the public sale, any wallets may buy up to 3 Tiny Ant for a 24 hour period until they are sold out.'
+				},
+				{
+					label: 'What are the rarities?',
+					content: 'Rarities will be shared shortly after launch.'
+				},
+				{
+					label: 'Are there royalties?',
+					content: '3% royalty on our main policy. No royalties on promo policy.'
+				},
+				{
+					label: 'Wen launch?',
+					content:
+						'Pre-Sale minting is still TBD.. Public sale begins shortly after, details to be announced.'
+				},
+				{
+					label: 'How to mint?',
+					content:
+						'First, whitelist Instructions in #whitelist-info. Then access tinyants.io/mint for the mint page with instructions.'
+				}
+			]}
+		/>
 	</div>
 </section>

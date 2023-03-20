@@ -18,9 +18,6 @@
 				<a href="#faqs">FAQS</a>
 			</li>
 			<li>
-				<a href="https://opensea.io/collection/tinyants" target="_blank">OPENSEA</a>
-			</li>
-			<li>
 				<a href="https://discord.gg/mfKZReycx3" target="_blank">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

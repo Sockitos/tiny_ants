@@ -6,11 +6,7 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter(),
-		paths: {
-			base: "/tiny_ants",
-			relative: false
-		}
+		adapter: adapter()
 	}
 };
 
