@@ -7,19 +7,27 @@
 	<title>Tiny Ants</title>
 </svelte:head>
 
-<img src="{base}/svgs/header.svg" alt="" />
+<img src="{base}/svgs/header.svg" alt="header" height="844" width="2501" class="w-full" />
 <section id="mint">
-	<div class="container flex flex-row items-center py-36">
-		<span class="basis-1/2 text-4xl font-bold text-center">MINTING SOON!</span>
-		<img src="{base}/images/loop.gif" class="basis-1/2 w-36 rounded-lg" />
+	<div class="container flex flex-col space-y-20 lg:flex-row lg:space-x-20 items-center py-36">
+		<span class="lg:basis-1/2 text-4xl font-bold text-center">MINTING SOON!</span>
+		<div class="lg:basis-1/2">
+			<img
+				src="{base}/images/loop.gif"
+				alt="Tiny Loop"
+				height="1500"
+				width="1500"
+				class="rounded-lg"
+			/>
+		</div>
 	</div>
 </section>
 <section id="vision" class="bg-jordy-blue">
-	<div class="container flex flex-row space-x-20 items-center py-36">
-		<div class="basis-1/2">
-			<img src="{base}/images/og.jpg" />
+	<div class="container flex flex-col space-y-20 lg:flex-row lg:space-x-20 items-center py-36">
+		<div class="lg:basis-1/2">
+			<img src="{base}/images/animation.gif" alt="OG" height="1500" width="1500" />
 		</div>
-		<div class="basis-1/2 space-y-10 text-2xl">
+		<div class="lg:basis-1/2 space-y-10 text-2xl">
 			<h2 class="text-5xl font-bold">OUR VISION</h2>
 			<p>
 				Our team is built with the foundation of trust. We are a group of crypto enthusiasts who met
@@ -44,15 +52,17 @@
 </section>
 <section id="ants">
 	<div class="container py-36 space-y-48">
-		<div class="flex flex-row space-x-20 items-center mb-10">
-			<div class="basis-1/2">
+		<div class="flex flex-col space-y-20 lg:flex-row lg:space-x-20 lg:items-center mb-10">
+			<div class="lg:basis-1/2">
 				<img
 					src="{base}/svgs/ants/simple_ant.svg"
 					alt="aqua_ant"
+					height="1500"
+					width="1500"
 					class="w-full h-auto rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
 			</div>
-			<div class="basis-1/2 space-y-10 text-2xl">
+			<div class="lg:basis-1/2 space-y-10 text-2xl">
 				<h2 class="text-5xl font-bold">THIS IS A TINY ANT</h2>
 				<p>A Tiny Ant comes in many shapes and colors. This is the most common type.</p>
 				<p>
@@ -69,71 +79,86 @@
 				<p>Every Tiny Ant and trait has been digitally hand-drawn by Pedro Herbet.</p>
 			</div>
 		</div>
-		<div class="grid grid-cols-4 gap-x-16 gap-y-10">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-16 gap-y-10">
 			<div class="flex flex-col items-center space-y-4">
 				<img
 					src="{base}/svgs/ants/aqua_ant.svg"
 					alt="aqua_ant"
+					height="1500"
+					width="1500"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">AQUA ANT</span>
+				<span class="text-2xl font-semibold">AQUA ANT</span>
 			</div>
-
 			<div class="flex flex-col items-center space-y-4">
 				<img
 					src="{base}/svgs/ants/cat_ant.svg"
 					alt="cat_ant"
+					height="1500"
+					width="1500"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">CAT ANT</span>
+				<span class="text-2xl font-semibold">CAT ANT</span>
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
 					src="{base}/svgs/ants/robot_ant.svg"
 					alt="holy_ant"
+					height="1500"
+					width="1500"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">ROBOT ANT</span>
+				<span class="text-2xl font-semibold">ROBOT ANT</span>
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
 					src="{base}/svgs/ants/pirate_ant.svg"
 					alt="knight_ant"
+					height="1500"
+					width="1500"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">PIRATE ANT</span>
+				<span class="text-2xl font-semibold">PIRATE ANT</span>
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
 					src="{base}/svgs/ants/mage_ant.svg"
 					alt="mage_ant"
+					height="1500"
+					width="1500"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">MAGE ANT</span>
+				<span class="text-2xl font-semibold">MAGE ANT</span>
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
-					src="{base}/svgs/ants/ninja_ant.svg"
+					src="{base}/svgs/ants/knight_ant.svg"
 					alt="ninja_ant"
+					height="1500"
+					width="1500"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">NINJA ANT</span>
+				<span class="text-2xl font-semibold">KNIGHT ANT</span>
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
 					src="{base}/svgs/ants/space_ant.svg"
 					alt="space_ant"
+					height="1500"
+					width="1500"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">SPACE ANT</span>
+				<span class="text-2xl font-semibold">SPACE ANT</span>
 			</div>
 			<div class="flex flex-col items-center space-y-4">
 				<img
 					src="{base}/svgs/ants/vampire_ant.svg"
 					alt="vampire_ant"
+					height="1500"
+					width="1500"
 					class="rounded-lg transition-transform hover:rotate-3 hover:scale-105"
 				/>
-				<span class="text-3xl font-semibold">VAMPIRE ANT</span>
+				<span class="text-2xl font-semibold">VAMPIRE ANT</span>
 			</div>
 		</div>
 	</div>
@@ -141,11 +166,17 @@
 <section id="team" class="bg-mauve">
 	<div class="container flex flex-col py-36 space-y-16">
 		<h2 class="text-5xl font-bold text-center">TEAM</h2>
-		<div class="flex flex-row space-x-20">
+		<div class="flex flex-col space-y-20 lg:flex-row lg:space-x-20">
 			<div
-				class="basis-1/3 bg-white/50 min-h-40 flex flex-col p-10 rounded-lg transition-transform -rotate-3 hover:rotate-0 hover:scale-110"
+				class="basis-1/3 bg-white/50 min-h-40 flex flex-col p-10 rounded-lg transition-transform lg:-rotate-3 hover:rotate-0 hover:scale-110"
 			>
-				<img src="{base}/images/4200.png" class="mb-8  rounded-md" />
+				<img
+					src="{base}/images/4200.png"
+					alt="Tyler Marquez"
+					height="1500"
+					width="1500"
+					class="mb-8 rounded-md"
+				/>
 				<h3 class="text-3xl font-semibold mb-2">TYLER MARQUEZ</h3>
 				<h4 class="text-2xl font-semibold mb-5">FOUNDER</h4>
 				<p>
@@ -157,7 +188,13 @@
 			<div
 				class="basis-1/3 bg-white/50 min-h-40 flex flex-col p-10 transition-transform hover:scale-110"
 			>
-				<img src="{base}/images/1300.png" class="mb-8  rounded-md" />
+				<img
+					src="{base}/images/1300.png"
+					alt="Pedro Herbet"
+					height="1500"
+					width="1500"
+					class="mb-8 rounded-md"
+				/>
 				<h3 class="text-3xl font-semibold mb-2">PEDRO HERBET</h3>
 				<h4 class="text-2xl font-semibold mb-5">ARTIST</h4>
 				<p>
@@ -169,9 +206,15 @@
 				</p>
 			</div>
 			<div
-				class="basis-1/3 bg-white/50 min-h-40 flex flex-col p-10 transition-transform rotate-3 hover:rotate-0 hover:scale-110"
+				class="basis-1/3 bg-white/50 min-h-40 flex flex-col p-10 transition-transform lg:rotate-3 hover:rotate-0 hover:scale-110"
 			>
-				<img src="{base}/images/420.png" class="mb-8  rounded-md" />
+				<img
+					src="{base}/images/420.png"
+					alt="John Milesz"
+					height="1500"
+					width="1500"
+					class="mb-8 rounded-md"
+				/>
 				<h3 class="text-3xl font-semibold mb-2">JOHN MILES</h3>
 				<h4 class="text-2xl font-semibold mb-5">DEVELOPER</h4>
 				<p>
@@ -185,7 +228,8 @@
 	</div>
 </section>
 <section id="faqs">
-	<div class="container py-36">
+	<div class="container flex flex-col py-36 space-y-16">
+		<h2 class="text-5xl font-bold text-center">FAQS</h2>
 		<Accordion
 			items={[
 				{

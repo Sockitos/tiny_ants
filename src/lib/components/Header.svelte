@@ -6,7 +6,16 @@
 
 <header class="{scrollY > 50 ? 'bg-mauve' : ''} transition-colors duration-300 fixed w-full z-50">
 	<div class="h-20 px-10 flex flex-row items-center">
-		<img src="{base}/svgs/logo.svg" class="h-12" />
+		<a href="/">
+			<img
+				src="{base}/svgs/logo.svg"
+				alt="Tiny Ants"
+				height="292.52"
+				width="466.29"
+				class="h-12 w-auto"
+			/>
+		</a>
+
 		<ul class="ml-auto flex flex-row items-center space-x-6 text-2xl font-semibold">
 			<li>
 				<a href="#vision">VISION</a>
