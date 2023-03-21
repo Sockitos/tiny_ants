@@ -9,7 +9,9 @@
 
 <img src="{base}/svgs/header.svg" alt="header" height="844" width="2501" class="w-full" />
 <section id="mint">
-	<div class="container flex flex-col space-y-20 lg:flex-row lg:space-x-20 items-center py-36">
+	<div
+		class="container flex flex-col space-y-20 lg:flex-row lg:space-y-0 lg:space-x-20 items-center py-36"
+	>
 		<span class="lg:basis-1/2 text-4xl font-bold text-center">MINTING SOON!</span>
 		<div class="lg:basis-1/2">
 			<img
@@ -23,7 +25,9 @@
 	</div>
 </section>
 <section id="vision" class="bg-jordy-blue">
-	<div class="container flex flex-col space-y-20 lg:flex-row lg:space-x-20 items-center py-36">
+	<div
+		class="container flex flex-col space-y-20 lg:flex-row lg:space-y-0 lg:space-x-20 items-center py-36"
+	>
 		<div class="lg:basis-1/2">
 			<img src="{base}/images/animation.gif" alt="OG" height="1500" width="1500" />
 		</div>
@@ -52,7 +56,9 @@
 </section>
 <section id="ants">
 	<div class="container py-36 space-y-48">
-		<div class="flex flex-col space-y-20 lg:flex-row lg:space-x-20 lg:items-center mb-10">
+		<div
+			class="flex flex-col space-y-20 lg:flex-row lg:space-y-0 lg:space-x-20 lg:items-center mb-10"
+		>
 			<div class="lg:basis-1/2">
 				<img
 					src="{base}/svgs/ants/simple_ant.svg"
@@ -166,7 +172,7 @@
 <section id="team" class="bg-mauve">
 	<div class="container flex flex-col py-36 space-y-16">
 		<h2 class="text-5xl font-bold text-center">TEAM</h2>
-		<div class="flex flex-col space-y-20 lg:flex-row lg:space-x-20">
+		<div class="flex flex-col space-y-20 lg:flex-row lg:space-y-0 lg:space-x-20">
 			<div
 				class="basis-1/3 bg-white/50 min-h-40 flex flex-col p-10 rounded-lg transition-transform lg:-rotate-3 hover:rotate-0 hover:scale-110"
 			>
@@ -180,9 +186,9 @@
 				<h3 class="text-3xl font-semibold mb-2">TYLER MARQUEZ</h3>
 				<h4 class="text-2xl font-semibold mb-5">FOUNDER</h4>
 				<p>
-					My name's Taylor and I'm a project manager who fell in love with the beauty of crypto and
+					My name's Tyler and I'm a project manager who fell in love with the beauty of crypto and
 					the NFT world. I'm an art lover who appreciates enthusiasm and talent. I think long term
-					in everything I do.s
+					in everything I do.
 				</p>
 			</div>
 			<div
