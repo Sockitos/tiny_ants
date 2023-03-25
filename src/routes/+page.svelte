@@ -79,7 +79,7 @@
 					with our creativeness.
 				</p>
 				<p>
-					Our collection consists of 4,444 unique Tiny Ants with over 70+ traits, including a couple
+					Our collection consists of 1,111 unique Tiny Ants with over 70+ traits, including a couple
 					secreat ones.
 				</p>
 				<p>Every Tiny Ant and trait has been digitally hand-drawn by Pedro Herbet.</p>
@@ -245,7 +245,7 @@
 				{
 					label: 'How many NFTs are there in the collection?',
 					content:
-						'4,444. 108 Are reserved for giveaways and promotions, and 3 1/1 Team Ants. 4,333 will be available to mint.'
+						'1,111. 30 are reserved for giveaways and promotions, and 3 1/1 Team Ants. 1,178 will be available to mint.'
 				},
 				{
 					label: 'Will there be a pre-sale?',
