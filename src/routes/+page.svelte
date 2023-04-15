@@ -12,7 +12,16 @@
 	<div
 		class="container flex flex-col space-y-20 lg:flex-row lg:space-y-0 lg:space-x-20 items-center py-36"
 	>
-		<span class="lg:basis-1/2 text-4xl font-bold text-center">MINTING SOON!</span>
+		<div class="lg:basis-1/2 flex flex-col items-center space-y-8">
+			<span class="text-4xl font-bold text-center">MINTING SOON!</span>
+			<a href="https://heymint.xyz/tiny-ants-nft">
+				<div
+					class="bg-jordy-blue text-white hover:bg-mauve hover:text-black transition-colors py-5 px-7 text-2xl font-semibold rounded-lg"
+				>
+					ENTER WHITELIST RAFFLE
+				</div>
+			</a>
+		</div>
 		<div class="lg:basis-1/2">
 			<img
 				src="{base}/images/loop.gif"
@@ -39,7 +48,7 @@
 			</p>
 			<p>
 				Our collection is quality-focused. Every trait is created with the intent to satisfy our
-				collectors. We made sure that the varietie of our assets hit the sweet spot for the size of
+				collectors. We made sure that the variety of our assets hit the sweet spot for the size of
 				the collection.
 			</p>
 			<p>
@@ -80,7 +89,7 @@
 				</p>
 				<p>
 					Our collection consists of 1,111 unique Tiny Ants with over 70+ traits, including a couple
-					secreat ones.
+					secret ones.
 				</p>
 				<p>Every Tiny Ant and trait has been digitally hand-drawn by Pedro Herbet.</p>
 			</div>
@@ -245,15 +254,15 @@
 				{
 					label: 'How many NFTs are there in the collection?',
 					content:
-						'1,111. 30 are reserved for giveaways and promotions, and 3 1/1 Team Ants. 1,178 will be available to mint.'
+						'1,111. 30 are reserved for giveaways and promotions, and 3 1/1 Team Ants. 1,078 will be available to mint.'
 				},
 				{
 					label: 'Will there be a pre-sale?',
-					content: 'Yes. You need to reach AntList status to participate.'
+					content: 'Yes. You need to reach Whitelist status to participate.'
 				},
 				{
 					label: 'What is the mint price?',
-					content: 'The whitelist pre-sale is 0.01 ETH and the public sale is 0.02 ETH.'
+					content: 'The whitelist pre-sale is FREE and the public sale is 0.025 ETH.'
 				},
 
 				{
@@ -272,7 +281,7 @@
 				{
 					label: 'How to mint?',
 					content:
-						'First, whitelist Instructions in our discord. Then access tinyants.io/mint for the mint page with instructions.'
+						' First get whitelisted by registering in the premint or interact with our Twitter posts. Then access tinyants.io/mint for the mint page with instructions.'
 				}
 			]}
 		/>
