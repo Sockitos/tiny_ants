@@ -16,7 +16,7 @@
 			<span class="text-4xl font-bold text-center">MINTING SOON!</span>
 			<a href="https://heymint.xyz/tiny-ants-nft">
 				<div
-					class="bg-jordy-blue text-white hover:bg-mauve hover:text-black transition-colors py-5 px-7 text-2xl font-semibold rounded-lg"
+					class="bg-jordy-blue text-white text-center hover:bg-mauve hover:text-black transition-colors py-5 px-7 text-2xl font-semibold rounded-lg"
 				>
 					ENTER WHITELIST RAFFLE
 				</div>
@@ -281,7 +281,7 @@
 				{
 					label: 'How to mint?',
 					content:
-						' First get whitelisted by registering in the premint or interact with our Twitter posts. Then access tinyants.io/mint for the mint page with instructions.'
+						'First get whitelisted by registering in the premint or interact with our Twitter posts. Then access tinyants.io/mint for the mint page with instructions.'
 				}
 			]}
 		/>
