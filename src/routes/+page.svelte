@@ -1,6 +1,19 @@
 <script lang="ts">
+	import { slide } from 'svelte/transition';
 	import { base } from '$app/paths';
 	import Accordion from '$lib/components/Accordion.svelte';
+	import { whitelist } from './constants';
+
+	let address = '';
+	let submittedAddress = '';
+	let addressIsWhitelisted: boolean | undefined;
+
+	$: if (address != submittedAddress) addressIsWhitelisted = undefined;
+
+	const checkAddress = function (address: string) {
+		submittedAddress = address;
+		addressIsWhitelisted = whitelist.includes(address);
+	};
 </script>
 
 <svelte:head>
@@ -285,5 +298,36 @@
 				}
 			]}
 		/>
+	</div>
+</section>
+<section id="wl-checker">
+	<div class="container flex flex-col items-center py-36 space-y-16">
+		<h2 class="text-5xl font-bold text-center">WHITELIST CHECKER</h2>
+		<p class="text-2xl text-center">
+			Insert your address below and press the button to verify that you are whitelisted.
+		</p>
+		<div class="w-full max-w-4xl">
+			<input
+				type="text"
+				placeholder="ETH Address"
+				class="block border border-jordy-blue focus:border-mauve focus:outline-mauve text-2xl rounded-lg w-full py-5 px-7 transition-colors"
+				bind:value={address}
+			/>
+			{#if addressIsWhitelisted != undefined}
+				<p transition:slide class="text-2xl text-center mt-4">
+					{#if addressIsWhitelisted}
+						Congrats! You are on the AntList, so you can mint 1 Free Tiny Ant when mint goes live 🔥
+					{:else}
+						Sorry! Your wallet is not on the WL! Try engaging with one of our next posts to get in!
+					{/if}
+				</p>
+			{/if}
+		</div>
+
+		<button
+			on:click={() => checkAddress(address)}
+			class="bg-jordy-blue text-white text-center hover:bg-mauve hover:text-black transition-colors py-5 px-7 text-2xl font-semibold rounded-lg"
+			>CHECK ADDRESS</button
+		>
 	</div>
 </section>
