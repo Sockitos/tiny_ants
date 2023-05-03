@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { slide } from 'svelte/transition';
 	import { base } from '$app/paths';
 	import Accordion from '$lib/components/Accordion.svelte';
+	import { slide } from 'svelte/transition';
 	import { whitelist } from './constants';
 
 	let address = '';
@@ -12,7 +12,7 @@
 
 	const checkAddress = function (address: string) {
 		submittedAddress = address;
-		addressIsWhitelisted = whitelist.includes(address);
+		addressIsWhitelisted = whitelist.includes(address.toLowerCase());
 	};
 </script>
 
@@ -306,11 +306,11 @@
 		<p class="text-2xl text-center">
 			Insert your address below and press the button to verify that you are whitelisted.
 		</p>
-		<div class="w-full max-w-4xl">
+		<div class="w-full">
 			<input
 				type="text"
 				placeholder="ETH Address"
-				class="block border border-jordy-blue focus:border-mauve focus:outline-mauve text-2xl rounded-lg w-full py-5 px-7 transition-colors"
+				class="block border border-jordy-blue focus:border-mauve focus:outline-mauve text-2xl rounded-lg w-full max-w-4xl m-auto py-5 px-7 transition-colors"
 				bind:value={address}
 			/>
 			{#if addressIsWhitelisted != undefined}
