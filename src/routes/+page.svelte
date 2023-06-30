@@ -309,7 +309,7 @@
 		<div class="w-full">
 			<input
 				type="text"
-				placeholder="ETH Address"
+				placeholder="Polygon Address"
 				class="block border border-jordy-blue focus:border-mauve focus:outline-mauve text-2xl rounded-lg w-full max-w-4xl m-auto py-5 px-7 transition-colors"
 				bind:value={address}
 			/>
