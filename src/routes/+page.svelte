@@ -298,7 +298,7 @@
 				},
 				{
 					label: 'How many Tiny Ants can I mint for FREE?',
-					content: 'We got 3 roles that give you access to the FREE MINT: <br>-Worker Tiny Ant (1 per wallet) <br>- Flying Tiny Ant (3 per wallet) <br>- Warrior Tiny Ant (6 per wallet) <br>There are limited spots, so get them before they run our!'
+					content: 'We got 3 roles that give you access to the FREE MINT: <br> -Worker Tiny Ant (1 per wallet) <br>- Flying Tiny Ant (3 per wallet) <br>- Warrior Tiny Ant (6 per wallet) <br>There are limited spots, so get them before they run our!'
 				}
 			]}
 		/>

@@ -26,7 +26,7 @@
 
 		{#if index == i}
 			<div transition:slide>
-				<p class="p-5">{item.content}</p>
+				<p class="p-5">{@html item.content}</p>
 			</div>
 		{/if}
 	{/each}
