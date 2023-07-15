@@ -223,10 +223,10 @@
 					width="1500"
 					class="mb-8 rounded-md"
 				/>
-				<h3 class="text-3xl font-semibold mb-2">PEDRO HERBET</h3>
+				<h3 class="text-3xl font-semibold mb-2">PHIL HERBET</h3>
 				<h4 class="text-2xl font-semibold mb-5">ARTIST</h4>
 				<p>
-					Hey I’m Pedro Herbet and I'm a digital post-production ilustrator and animator. I've
+					Hey I’m Phil Herbet and I'm a digital post-production ilustrator and animator. I've
 					worked on multiple advertisement projects with Adidas, EDP, and more. Inspired at a young
 					age from cartoons and anime art, i was led to try different art styles. I hope to share my
 					passion with the NFT community through the creation of cute Tiny Ants with a realistic
@@ -267,7 +267,7 @@
 				{
 					label: 'How many NFTs are there in the collection?',
 					content:
-						'1,111. 30 are reserved for giveaways and promotions, and 3 1/1 Team Ants. 1,078 will be available to mint.'
+						'1,111. 41 are reserved for giveaways and promotions, and 3 1/1 Team Ants. 1,067 will be available to mint.'
 				},
 				{
 					label: 'Will there be a pre-sale?',
@@ -275,7 +275,7 @@
 				},
 				{
 					label: 'What is the mint price?',
-					content: 'The whitelist pre-sale is FREE and the public sale is 0.025 ETH.'
+					content: 'The whitelist pre-sale is FREE and the public sale is 20 MATIC.'
 				},
 
 				{
@@ -284,17 +284,21 @@
 				},
 				{
 					label: 'Are there royalties?',
-					content: '3% royalty on our main policy.'
+					content: '10% royalty on our main policy.'
 				},
 				{
 					label: 'Wen launch?',
 					content:
-						'Pre-Sale minting is still TBD. Public sale begins shortly after, details to be announced.'
+						'Pre-Sale minting will be on the 29th of July. Public sale begins shortly after in case of not selling-out'
 				},
 				{
 					label: 'How to mint?',
 					content:
 						'First get whitelisted by registering in the premint or interact with our Twitter posts. Then access tinyants.io/mint for the mint page with instructions.'
+				},
+				{
+					label: 'How many Tiny Ants can I mint for FREE?',
+					content: 'We got 3 roles that give you access to the FREE MINT: <br>-Worker Tiny Ant (1 per wallet) <br>- Flying Tiny Ant (3 per wallet) <br>- Warrior Tiny Ant (6 per wallet) <br>There are limited spots, so get them before they run our!'
 				}
 			]}
 		/>

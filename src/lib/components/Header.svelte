@@ -43,7 +43,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="https://opensea.io/collection/tiny-ants-nft" target="_blank">
+				<a href="" target="_blank">
 					<svg
 						class="h-5 w-5"
 						fill="currentColor"
