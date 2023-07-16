@@ -289,7 +289,7 @@
 				{
 					label: 'Wen launch?',
 					content:
-						'Pre-Sale minting will be on the 29th of July. Public sale begins shortly after in case of not selling-out'
+						'Pre-Sale minting will be on the 29th of July. Public sale begins shortly after in case pre-sale doesnt sell-out'
 				},
 				{
 					label: 'How to mint?',
@@ -298,7 +298,7 @@
 				},
 				{
 					label: 'How many Tiny Ants can I mint for FREE?',
-					content: 'We got 3 roles that give you access to the FREE MINT: <br> -Worker Tiny Ant (1 per wallet) <br>- Flying Tiny Ant (3 per wallet) <br>- Warrior Tiny Ant (6 per wallet) <br>There are limited spots, so get them before they run our!'
+					content: 'We have 3 roles that give you access to the FREE MINT: <br> -Worker Tiny Ant (1 per wallet) <br>- Flying Tiny Ant (3 per wallet) <br>- Warrior Tiny Ant (6 per wallet) <br>There are limited spots, so get them before they run out!'
 				}
 			]}
 		/>
