@@ -2,17 +2,17 @@
 	import { base } from '$app/paths';
 	import Accordion from '$lib/components/Accordion.svelte';
 	import { slide } from 'svelte/transition';
-	import { whitelist } from './constants';
+	import { AntType, whitelist } from './constants';
 
 	let address = '';
 	let submittedAddress = '';
-	let addressIsWhitelisted: boolean | undefined;
+	let addressIsWhitelisted: AntType | undefined;
 
 	$: if (address != submittedAddress) addressIsWhitelisted = undefined;
 
 	const checkAddress = function (address: string) {
 		submittedAddress = address;
-		addressIsWhitelisted = whitelist.includes(address.toLowerCase());
+		addressIsWhitelisted = whitelist.find((ant) => ant.address == address)?.type ?? AntType.Renegade;
 	};
 </script>
 
@@ -226,9 +226,9 @@
 				<h3 class="text-3xl font-semibold mb-2">PHIL HERBET</h3>
 				<h4 class="text-2xl font-semibold mb-5">ARTIST</h4>
 				<p>
-					Hey I’m Phil Herbet and I'm a digital post-production ilustrator and animator. I've
-					worked on multiple advertisement projects with Adidas, EDP, and more. Inspired at a young
-					age from cartoons and anime art, i was led to try different art styles. I hope to share my
+					Hey I’m Phil Herbet and I'm a digital post-production ilustrator and animator. I've worked
+					on multiple advertisement projects with Adidas, EDP, and more. Inspired at a young age
+					from cartoons and anime art, i was led to try different art styles. I hope to share my
 					passion with the NFT community through the creation of cute Tiny Ants with a realistic
 					touch.
 				</p>
@@ -298,7 +298,8 @@
 				},
 				{
 					label: 'How many Tiny Ants can I mint for FREE?',
-					content: 'We have 3 roles that give you access to the FREE MINT: <br> -Worker Tiny Ant (1 per wallet) <br>- Flying Tiny Ant (3 per wallet) <br>- Warrior Tiny Ant (6 per wallet) <br>There are limited spots, so get them before they run out!'
+					content:
+						'We have 3 roles that give you access to the FREE MINT: <br> -Worker Tiny Ant (1 per wallet) <br>- Flying Tiny Ant (3 per wallet) <br>- Warrior Tiny Ant (6 per wallet) <br>There are limited spots, so get them before they run out!'
 				}
 			]}
 		/>
@@ -319,9 +320,16 @@
 			/>
 			{#if addressIsWhitelisted != undefined}
 				<p transition:slide class="text-2xl text-center mt-4">
-					{#if addressIsWhitelisted}
-						Congrats! You are on the AntList, so you can mint 1 Free Tiny Ant when mint goes live 🔥
-					{:else}
+					{#if addressIsWhitelisted === AntType.Worker}
+						Congrats! You are on the AntList as a Worker Tiny Ant, you can mint 1 Free Tiny Ant when
+						mint goes live 🔥
+					{:else if addressIsWhitelisted === AntType.Explorer}
+						Congrats! You are on the AntList as a Explorer Tiny Ant, you can mint 3 Free Tiny Ant
+						when mint goes live 🔥
+					{:else if addressIsWhitelisted === AntType.Warrior}
+						Congrats! You are on the AntList as a Warrior Tiny Ant, you can mint 6 Free Tiny Ant
+						when mint goes live 🔥
+					{:else if addressIsWhitelisted === AntType.Renegade}
 						Sorry! Your wallet is not on the WL! Try engaging with one of our next posts to get in!
 					{/if}
 				</p>
