@@ -4,6 +4,29 @@
 	import { slide } from 'svelte/transition';
 	import { AntType, whitelist } from './constants';
 
+	const mintDate = new Date('2023-07-29').getTime();
+	let now = new Date().getTime();
+	let distance = mintDate - now;
+	let days = 0;
+	let hours = 0;
+	let minutes = 0;
+	let seconds = 0;
+
+	$: {
+		days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		seconds = Math.floor((distance % (1000 * 60)) / 1000);
+	}
+
+	const timer = setInterval(() => {
+		now = new Date().getTime();
+		distance = mintDate - now;
+		if (distance < 0) {
+			clearInterval(timer);
+		}
+	}, 1000);
+
 	let address = '';
 	let submittedAddress = '';
 	let addressIsWhitelisted: AntType | undefined;
@@ -21,6 +44,31 @@
 </svelte:head>
 
 <img src="{base}/svgs/header.svg" alt="header" height="844" width="2501" class="w-full" />
+<section id="countdown">
+	<div class="container flex flex-row justify-center py-10 max-w-4xl">
+		{#if distance < 0}
+			<p class="text-9xl font-bold">MINT IS LIVE!</p>
+		{:else}
+			<div class="w-1/4 flex flex-col items-center">
+			<p class="text-9xl font-bold">{days}</p>
+			<p class="text-5xl">DAYS</p>
+		</div>
+		<div class="w-1/4 flex flex-col items-center">
+			<p class="text-9xl font-bold">{hours}</p>
+			<p class="text-5xl">HOURS</p>
+		</div>
+		<div class="w-1/4 flex flex-col items-center">
+			<p class="text-9xl font-bold">{minutes}</p>
+			<p class="text-5xl">MINS</p>
+		</div>
+		<div class="w-1/4 flex flex-col items-center">
+			<p class="text-9xl font-bold">{seconds}</p>
+			<p class="text-5xl">SECS</p>
+		</div>
+		{/if}
+		
+	</div>
+</section>
 <section id="mint">
 	<div
 		class="container flex flex-col space-y-20 lg:flex-row lg:space-y-0 lg:space-x-20 items-center py-36"
