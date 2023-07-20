@@ -12,7 +12,7 @@
 
 	const checkAddress = function (address: string) {
 		submittedAddress = address;
-		addressIsWhitelisted = whitelist.find((ant) => ant.address == address)?.type ?? AntType.Renegade;
+		addressIsWhitelisted = whitelist.find((ant) => ant.address == address.toLowerCase())?.type ?? AntType.Renegade;
 	};
 </script>
 
