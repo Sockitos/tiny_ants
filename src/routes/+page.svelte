@@ -324,10 +324,10 @@
 						Congrats! You are on the AntList as a Worker Tiny Ant, you can mint 1 Free Tiny Ant when
 						mint goes live 🔥
 					{:else if addressIsWhitelisted === AntType.Explorer}
-						Congrats! You are on the AntList as a Explorer Tiny Ant, you can mint 3 Free Tiny Ant
+						Congrats! You are on the AntList as a Explorer Tiny Ant, you can mint 3 Free Tiny Ants
 						when mint goes live 🔥
 					{:else if addressIsWhitelisted === AntType.Warrior}
-						Congrats! You are on the AntList as a Warrior Tiny Ant, you can mint 6 Free Tiny Ant
+						Congrats! You are on the AntList as a Warrior Tiny Ant, you can mint 6 Free Tiny Ants
 						when mint goes live 🔥
 					{:else if addressIsWhitelisted === AntType.Renegade}
 						Sorry! Your wallet is not on the WL! Try engaging with one of our next posts to get in!
