@@ -47,23 +47,23 @@
 <section id="countdown">
 	<div class="container flex flex-row justify-center py-10 max-w-4xl">
 		{#if distance < 0}
-			<p class="text-9xl font-bold">MINT IS LIVE!</p>
+			<p class="text-5xl md:text-9xl font-bold">MINT IS LIVE!</p>
 		{:else}
 			<div class="w-1/4 flex flex-col items-center">
-			<p class="text-9xl font-bold">{days}</p>
-			<p class="text-5xl">DAYS</p>
+			<p class="text-5xl md:text-9xl font-bold">{days}</p>
+			<p class="text-xl md:text-5xl">DAYS</p>
 		</div>
 		<div class="w-1/4 flex flex-col items-center">
-			<p class="text-9xl font-bold">{hours}</p>
-			<p class="text-5xl">HOURS</p>
+			<p class="text-5xl md:text-9xl font-bold">{hours}</p>
+			<p class="text-xl md:text-5xl">HOURS</p>
 		</div>
 		<div class="w-1/4 flex flex-col items-center">
-			<p class="text-9xl font-bold">{minutes}</p>
-			<p class="text-5xl">MINS</p>
+			<p class="text-5xl md:text-9xl font-bold">{minutes}</p>
+			<p class="text-xl md:text-5xl">MINS</p>
 		</div>
 		<div class="w-1/4 flex flex-col items-center">
-			<p class="text-9xl font-bold">{seconds}</p>
-			<p class="text-5xl">SECS</p>
+			<p class="text-5xl md:text-9xl font-bold">{seconds}</p>
+			<p class="text-xl md:text-5xl">SECS</p>
 		</div>
 		{/if}
 		
