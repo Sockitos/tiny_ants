@@ -43,7 +43,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="" target="_blank">
+				<a href="https://opensea.com" target="_blank">
 					<svg
 						class="h-5 w-5"
 						fill="currentColor"
