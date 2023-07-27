@@ -315,7 +315,7 @@
 				{
 					label: 'How many NFTs are there in the collection?',
 					content:
-						'1,111. 41 are reserved for giveaways and promotions, and 3 1/1 Team Ants. 1,067 will be available to mint.'
+						'1,111. 61 are reserved for giveaways and promotions, and 3 Team Ants. 1,047 will be available to mint.'
 				},
 				{
 					label: 'Will there be a pre-sale?',
@@ -323,7 +323,7 @@
 				},
 				{
 					label: 'What is the mint price?',
-					content: 'The whitelist pre-sale is FREE and the public sale is 20 MATIC.'
+					content: 'The whitelist pre-sale is FREE'
 				},
 
 				{
@@ -342,7 +342,7 @@
 				{
 					label: 'How to mint?',
 					content:
-						'First get whitelisted by registering in the premint or interact with our Twitter posts. Then access tinyants.io/mint for the mint page with instructions.'
+						'First get whitelisted by registering in the premint, interact with our Twitter posts or engage on our Discord. Then access tinyants.io/mint for the mint page with instructions.'
 				},
 				{
 					label: 'How many Tiny Ants can I mint for FREE?',
