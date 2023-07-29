@@ -660,7 +660,6 @@ export const whitelist = [
 	{ address: '0x823508f28badc67bc6ba1b7f560724ac2a00691f', type: AntType.Worker },
 	{ address: '0xc280e431cd463bc2042c09c03caa141f5ac824e2', type: AntType.Explorer },
 	{ address: '0x3118282495701072c1bdb4ca732bf249f5d16417', type: AntType.Warrior },
-	{ address: '0xac4f4d03c1ac2542b65d811f9c5e7b6c318469c9', type: AntType.Warrior },
 	{ address: '0xe2f470498fe2f1f49bbd1e7f721a579d1ac64237', type: AntType.Worker },
 	{ address: '0x8536b5f1b5a7882609e17d9bd7c1692983eb8fff', type: AntType.Explorer },
 	{ address: '0x1890de244d101beae57a8ff8b8b9b83384f00a01', type: AntType.Worker },

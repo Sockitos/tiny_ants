@@ -17,16 +17,16 @@
 		</a>
 		<ul class="ml-auto flex-row items-center space-x-6 text-2xl font-semibold flex">
 			<li>
-				<a href="#vision">VISION</a>
+				<a href="/">VISION</a>
 			</li>
 			<li>
-				<a href="#team">TEAM</a>
+				<a href="/">TEAM</a>
 			</li>
 			<li>
-				<a href="#faqs">FAQS</a>
+				<a href="/">FAQS</a>
 			</li>
 			<li>
-				<a href="#wl-checker">WL CHECKER</a>
+				<a href="/">WL CHECKER</a>
 			</li>
 			<li>
 				<a href="https://discord.gg/mfKZReycx3" target="_blank">

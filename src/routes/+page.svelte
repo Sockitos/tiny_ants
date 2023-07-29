@@ -75,11 +75,12 @@
 	>
 		<div class="lg:basis-1/2 flex flex-col items-center space-y-8">
 			<span class="text-4xl font-bold text-center">MINTING SOON!</span>
-			<a href="https://heymint.xyz/tiny-ants-nft">
+			
+			<a href="/mint">
 				<div
 					class="bg-jordy-blue text-white text-center hover:bg-mauve hover:text-black transition-colors py-5 px-7 text-2xl font-semibold rounded-lg"
 				>
-					ENTER WHITELIST RAFFLE
+					Mint Now
 				</div>
 			</a>
 		</div>
