@@ -293,7 +293,7 @@ export const whitelist = [
 	{ address: '0x662aa205690ce90c0c8e19e4f677edd414880e6d', type: AntType.Explorer },
 	{ address: '0xf6bc3861536ea8955d8debe5256adbdc42042be7', type: AntType.Warrior },
 	{ address: '0xd3c3db6ffa36495f6f341878b1c54706fc46d9a9', type: AntType.Warrior },
-	{ address: '0xd9f3e53c51f753d9ab514f966c3fab78a910adc7', type: AntType.Worker },
+	{ address: '0xd9f3e53c51f753d9ab514f966c3fab78a910adc7', type: AntType.Explorer },
 	{ address: '0x0d7cdaa17b9b20504741ef8606136da07dfb525f', type: AntType.Explorer },
 	{ address: '0xfd10cd41ea20545c0974d5a18a20b69347f7fdef', type: AntType.Explorer },
 	{ address: '0x706adc11beefb1f0123ba1a7feffacdc83b92431', type: AntType.Explorer },
