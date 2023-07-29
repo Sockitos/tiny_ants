@@ -249,7 +249,7 @@ export const whitelist = [
 	{ address: '0x7df2e939d6540b1a7a2321f76b9c77c08669d5b2', type: AntType.Explorer },
 	{ address: '0xcdfb83642eb801d05e77302bd919de5f92c21ed5', type: AntType.Explorer },
 	{ address: '0xe0e1c3d8946f363afa5446151bd56d66c653c39b', type: AntType.Explorer },
-	{ address: '0xF2675C7E66B1f0DD005f13549690D6c6cD3d8eC3', type: AntType.Explorer },
+	{ address: '0xf2675c7e66b1f0dd005f13549690d6c6cd3d8ec3', type: AntType.Explorer },
 	{ address: '0xb8c6350d7cba17abef44ab9f123ca7ecbb0cd6cc', type: AntType.Warrior },
 	{ address: '0x09aa2ac8e6d8a4fd17de6c6be36341707c430ba8', type: AntType.Explorer },
 	{ address: '0xa3b19a2a3e8c7451e0f802eacec429b8419dec3d', type: AntType.Explorer },
@@ -699,7 +699,7 @@ export const whitelist = [
 	{ address: '0x295d16cdce6f9f4cdfa66209c87462bcad532dfb', type: AntType.Worker },
 	{ address: '0x88fc91239a14bb86f23d16076da8aadd08527509', type: AntType.Worker },
 	{ address: '0xf7c6bc87787d8d6ad54ecee61afefad89debf2c9', type: AntType.Worker },
-	{ address: '0x04A45214fF989015677896b82C36afa791eCb533', type: AntType.Explorer },
+	{ address: '0x04a45214ff989015677896b82c36afa791ecb533', type: AntType.Explorer },
 	{ address: '0x8ba2ed97fadb3b15a72b5766a07127e3cc9c5b2c', type: AntType.Worker },
 	{ address: '0x4fa54ee92c7a437b827914be9a04730158902c6a', type: AntType.Worker },
 	{ address: '0x14ef9f8ff31957b150baf7dba714b7faf61c6fc6', type: AntType.Worker },
@@ -746,8 +746,8 @@ export const whitelist = [
 	{ address: '0x281120b5860be7c1626ad547a0fefec5e9019492', type: AntType.Worker },
 	{ address: '0x2558ffc9383a243ec1457b9fc413ace506fb85c6', type: AntType.Worker },
 	{ address: '0xd88b2d4b5febf8d5f440de9f4e5e216f56fea1ba', type: AntType.Worker },
-	{ address: '0x6a735D2b4Cc6dB4c616efb7FB3E0F45E7E979102', type: AntType.Worker },
-	{ address: '0xf871909e91c5F0F3fa5DbB6C857661a2060f4A3c', type: AntType.Worker },
-	{ address: '0xBA95b0d82358F5d6fe76bEe9a3B62e23985eD00C', type: AntType.Explorer },
-	{ address: '0xa6D43Fc50D96a88FF14B3Ec8ACc006B23D296f7D', type: AntType.Worker }
+	{ address: '0x6a735d2b4cc6db4c616efb7fb3e0f45e7e979102', type: AntType.Worker },
+	{ address: '0xf871909e91c5f0f3fa5dbb6c857661a2060f4a3c', type: AntType.Worker },
+	{ address: '0xba95b0d82358f5d6fe76bee9a3b62e23985ed00c', type: AntType.Explorer },
+	{ address: '0xa6d43fc50d96a88ff14b3ec8acc006b23d296f7d', type: AntType.Worker }
 ];
