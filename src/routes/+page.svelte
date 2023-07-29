@@ -4,7 +4,7 @@
 	import { slide } from 'svelte/transition';
 	import { AntType, whitelist } from './constants';
 
-	const mintDate = new Date('2023-07-29T18:00:00.000Z').getTime();
+	const mintDate = new Date('2023-07-29T17:00:00.000Z').getTime();
 	let now = new Date().getTime();
 	let distance = mintDate - now;
 	let days = 0;
