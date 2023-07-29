@@ -74,7 +74,7 @@
 		class="container flex flex-col space-y-20 lg:flex-row lg:space-y-0 lg:space-x-20 items-center py-36"
 	>
 		<div class="lg:basis-1/2 flex flex-col items-center space-y-8">
-			<span class="text-4xl font-bold text-center">MINTING SOON!</span>
+			<span class="text-4xl font-bold text-center">MINTING LIVE!</span>
 			
 			<a href="/mint">
 				<div
