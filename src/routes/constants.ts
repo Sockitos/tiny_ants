@@ -510,7 +510,7 @@ export const whitelist = [
 	{ address: '0xd88827e4e69f46884fb6f84dd3df1eac54b6213c', type: AntType.Worker },
 	{ address: '0x3b27d1374c4c24fcb850e5e02d3df7bae673eef9', type: AntType.Worker },
 	{ address: '0x1c552428512964c18d2df757c6827054e9063973', type: AntType.Worker },
-	{ address: '0x3302dc5b123d95645a87932fd38f8ffd8d8ee74b', type: AntType.Explorer },
+	{ address: '0x3302dc5b123d95645a87932fd38f8ffd8d8ee74b', type: AntType.Warrior },
 	{ address: '0xb4113c031007cc9f2980af2a13dda0bb304e8081', type: AntType.Worker },
 	{ address: '0x99f4e8d92de5a42261b69f56c84f357e0f92e342', type: AntType.Worker },
 	{ address: '0xef8ef60c463f71bf5ddfb6996214e3c9d57e4f41', type: AntType.Worker },
@@ -749,5 +749,6 @@ export const whitelist = [
 	{ address: '0x6a735d2b4cc6db4c616efb7fb3e0f45e7e979102', type: AntType.Worker },
 	{ address: '0xf871909e91c5f0f3fa5dbb6c857661a2060f4a3c', type: AntType.Worker },
 	{ address: '0xba95b0d82358f5d6fe76bee9a3b62e23985ed00c', type: AntType.Explorer },
-	{ address: '0xa6d43fc50d96a88ff14b3ec8acc006b23d296f7d', type: AntType.Worker }
+	{ address: '0xa6d43fc50d96a88ff14b3ec8acc006b23d296f7d', type: AntType.Worker },
+	{ address: '0xAC4f4D03C1Ac2542b65d811F9c5e7B6C318469c9', type: AntType.Warrior }
 ];
