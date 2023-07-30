@@ -962,5 +962,11 @@ export const whitelist = [
 	{ address: '0x71ae94d703fb628a6ff11f1707effa10e638440e', type: AntType.Worker },
 	{ address: '0x1c770483dd73b4f64abc2f304bda107918ae201a', type: AntType.Worker },
 	{ address: '0x095692b08d94a629d6a5167547307807c8211035', type: AntType.Worker },
-	{ address: '0x1c464bd30f843a910ab13bf129db3c1bef3de42a', type: AntType.Worker }
+	{ address: '0x1c464bd30f843a910ab13bf129db3c1bef3de42a', type: AntType.Worker },
+	{ address: '0xEE3De93B729Ba354D00a003F32F212594EdeDb0a', type: AntType.Worker },
+	{ address: '0x0Eee597793E20A8838CE67a3181B669232eAa2dd', type: AntType.Worker },
+	{ address: '0xAEBabc70b3296c779cfc435cE4d27A81594e43c0', type: AntType.Worker },
+	{ address: '0xbaFeaC88343e892b685e2125cec896C860b29d92', type: AntType.Worker },
+	{ address: '0xCF809129b6581879051399c08FA784Bcef8E543a', type: AntType.Worker },
+	{ address: '0xBd51ae8441C36FDb2cd32693e9CF617C66f1F7E8', type: AntType.Worker },
 ];
