@@ -316,7 +316,7 @@
 				{
 					label: 'How many NFTs are there in the collection?',
 					content:
-						'1,111. 61 are reserved for giveaways and promotions, and 3 Team Ants. 1,047 will be available to mint.'
+						'1,111. 97 are reserved for giveaways and promotions, and 3 Team Ants. 1,011 will be available to mint.'
 				},
 				{
 					label: 'Will there be a pre-sale?',

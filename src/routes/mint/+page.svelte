@@ -36,7 +36,7 @@
 <img src="{base}/svgs/header.svg" alt="header" height="844" width="2501" class="w-full" />
 <section id="mint">
     <div class="container flex flex-row justify-center max-w-4xl">        
-	    <p class="text-3xl text-align: center md:text-3xl font-bold">WORKER TINY ANTS MINT!</p>    
+	    <p class="text-3xl text-align: center md:text-3xl font-bold">PUBLIC TINY ANTS MINT!</p>    
     </div>
     <div class="container flex flex-row justify-center  max-w-6xl">        
 	    <p class="text-1xl text-align: center md:text-1xl ">Please make sure you are connected to the right Network [Polygon Mainnet] and the correct address </p>    
