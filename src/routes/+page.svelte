@@ -47,7 +47,7 @@
 <section id="countdown">
 	<div class="container flex flex-row justify-center py-10 max-w-4xl">
 		{#if distance < 0}
-			<p class="text-5xl md:text-9xl font-bold">MINT IS LIVE!</p>
+			<p class="text-5xl md:text-9xl font-bold">Sold Out!</p>
 		{:else}
 			<div class="w-1/4 flex flex-col items-center">
 			<p class="text-5xl md:text-9xl font-bold">{days}</p>
@@ -74,13 +74,13 @@
 		class="container flex flex-col space-y-20 lg:flex-row lg:space-y-0 lg:space-x-20 items-center py-36"
 	>
 		<div class="lg:basis-1/2 flex flex-col items-center space-y-8">
-			<span class="text-4xl font-bold text-center">MINTING LIVE!</span>
+			<span class="text-4xl font-bold text-center">Buy on Secondary Market!</span>
 			
 			<a href="/mint">
 				<div
 					class="bg-jordy-blue text-white text-center hover:bg-mauve hover:text-black transition-colors py-5 px-7 text-2xl font-semibold rounded-lg"
 				>
-					Mint Now
+					OpenSea
 				</div>
 			</a>
 		</div>
