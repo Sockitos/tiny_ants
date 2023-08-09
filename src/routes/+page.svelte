@@ -76,7 +76,7 @@
 		<div class="lg:basis-1/2 flex flex-col items-center space-y-8">
 			<span class="text-4xl font-bold text-center">Buy on Secondary Market!</span>
 			
-			<a href="/mint">
+			<a href="https://opensea.io/collection/tiny-ants-nft">
 				<div
 					class="bg-jordy-blue text-white text-center hover:bg-mauve hover:text-black transition-colors py-5 px-7 text-2xl font-semibold rounded-lg"
 				>
