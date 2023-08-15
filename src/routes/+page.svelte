@@ -153,7 +153,7 @@
 					Our collection consists of 1,111 unique Tiny Ants with over 70+ traits, including a couple
 					secret ones.
 				</p>
-				<p>Every Tiny Ant and trait has been digitally hand-drawn by Pedro Herbet.</p>
+				<p>Every Tiny Ant and trait has been digitally hand-drawn by Phil Herbet.</p>
 			</div>
 		</div>
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-16 gap-y-10">
